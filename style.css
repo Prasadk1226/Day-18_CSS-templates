@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    display: inline;
+    
+}
+@media screen and (min-width:1024px) {
+    img{
+        width: 23%;
+    }
+    .incon{
+        width: 50%;
+        display: inline;
+        /* margin-left: 2.33%; */
+    }
+    .container{
+        margin-left: 2.8%;
+        width: 100vw;
+    }
+}
+@media screen and (max-width:1023px) {
+    img{
+        width: 48%;
+    }
+    
+}
